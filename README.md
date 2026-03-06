@@ -94,14 +94,14 @@ This hand tracking system can be extended to build:
 
 ---
 
-## 🖥 Output:
+##  📷 Output:
 
 
 
 ## 🙌 Acknowledgements
 
-* 🧠 **Google MediaPipe** for providing the hand tracking model
-* 📷 **OpenCV** for real-time image processing
+*  **Google MediaPipe** for providing the hand tracking model
+*  **OpenCV** for real-time image processing
 ---
 
 
@@ -170,14 +170,120 @@ pip install opencv-python mediapipe
 
 This finger counting system can be extended to build:
 
-* 🖐 **Hand gesture recognition**
-* 🖱 **Virtual mouse control**
-* 🔊 **Gesture-based volume control**
-* 🎮 **Touchless gaming interfaces**
-* 🤖 **Robot control using finger gestures**
-* 🧠 **Human–computer interaction systems**
+*  **Hand gesture recognition**
+*  **Virtual mouse control**
+*  **Gesture-based volume control**
+*  **Touchless gaming interfaces**
+*  **Robot control using finger gestures**
+*  **Human–computer interaction systems**
 
 ---
 
 ## 📷 Output:
+
+---
+
+# 3. ✋ Hand Gesture Recognition using MediaPipe and OpenCV
+
+## 📌 Overview
+
+This project demonstrates **real-time hand gesture recognition** using **OpenCV** and **MediaPipe Gesture Recognizer**. The system captures video from a webcam, detects a hand, and recognizes predefined gestures using the **MediaPipe Gesture Recognition model (`gesture_recognizer.task`)**.
+
+
+## ✨ Features
+
+*  **Real-time hand gesture recognition**
+*  Uses **MediaPipe's pretrained gesture recognition model**
+*  Detects common gestures automatically
+*  Lightweight and **runs in real-time**
+*  Works directly with a **webcam**
+*  Gesture prediction with **confidence score filtering**
+
+---
+
+## 🛠 Technologies Used
+
+*  **Python**
+*  **OpenCV** – video capture and visualization
+*  **MediaPipe Tasks API** – gesture recognition
+*  **NumPy** – image processing
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Install required libraries
+
+```bash id="zv9nqf"
+pip install opencv-python mediapipe numpy
+```
+
+---
+
+### 2️⃣ Download the MediaPipe Gesture Model
+
+Download the model:
+
+```
+gesture_recognizer.task
+```
+
+Place the file in the **same directory as the Python script**.
+
+You can find it in the **MediaPipe model repository**.
+
+---
+
+
+## ⚙️ How It Works
+
+1️⃣ The webcam captures frames using **OpenCV **
+
+2️⃣ Each frame is flipped horizontally to create a **mirror effect**
+
+3️⃣ The frame is converted from **BGR → RGB **
+
+4️⃣ The image is converted into a **MediaPipe image object**
+
+5️⃣ The **Gesture Recognizer model** processes the frame
+
+6️⃣ If a gesture is detected:
+
+* The gesture name is extracted
+* The prediction confidence is checked
+
+7️⃣ The detected gesture is displayed on the screen.
+
+---
+
+##  Supported Gestures
+
+The default **MediaPipe Gesture Recognizer model** detects several predefined gestures:
+
+| Gesture           | Description                |
+| ----------------- | -------------------------- |
+| 👍 **Thumb_Up**   | Thumbs up gesture          |
+| 👎 **Thumb_Down** | Thumbs down gesture        |
+| ✊ **Closed_Fist** | Closed hand                |
+| 🖐 **Open_Palm**  | Open hand                  |
+| ✌ **Victory**     | Two-finger victory sign    |
+| ☝ **Pointing_Up** | Index finger pointing up   |
+| 🤟 **ILoveYou**   | Sign language "I love you" |
+
+---
+
+#  📷 Output
+
+## 🚀 Applications
+
+This system can be used to build many gesture-based applications:
+
+*  **Robot control using hand gestures**
+*  **Touchless gaming controls**
+*  **Gesture-based computer interaction**
+*  **Smart home control systems**
+*  **Sign language recognition**
+*  **Human–computer interaction systems**
+
+---
 
