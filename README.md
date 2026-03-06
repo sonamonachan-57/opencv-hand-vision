@@ -51,9 +51,9 @@ pip install opencv-python mediapipe
 4️⃣ If hands are detected:
 
 *  **21 hand landmarks** are identified
-* 🔗 Landmarks and their connections are drawn on the frame
+*  Landmarks and their connections are drawn on the frame
   
-5️⃣ The processed frame is displayed in a window 🖥️
+5️⃣ The processed frame is displayed in a window 
 
 ---
 
