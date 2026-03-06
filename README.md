@@ -42,12 +42,13 @@ pip install opencv-python mediapipe
 
 ## ⚙️ How It Works
 
-1️⃣ The webcam captures frames using **OpenCV 📷**
-2️⃣ Each frame is converted from **BGR → RGB 🎨** format
-3️⃣ MediaPipe processes the frame to detect hands ✋
+1️⃣ The webcam captures frames using **OpenCV **
+
+2️⃣ Each frame is converted from **BGR → RGB ** format
+3️⃣ MediaPipe processes the frame to detect hands 
 4️⃣ If hands are detected:
 
-* 📍 **21 hand landmarks** are identified
+*  **21 hand landmarks** are identified
 * 🔗 Landmarks and their connections are drawn on the frame
   5️⃣ The processed frame is displayed in a window 🖥️
 
