@@ -237,11 +237,11 @@ You can find it in the **MediaPipe model repository**.
 
 ## ⚙️ How It Works
 
-1️⃣ The webcam captures frames using **OpenCV **
+1️⃣ The webcam captures frames using **OpenCV**
 
 2️⃣ Each frame is flipped horizontally to create a **mirror effect**
 
-3️⃣ The frame is converted from **BGR → RGB **
+3️⃣ The frame is converted from **BGR → RGB**
 
 4️⃣ The image is converted into a **MediaPipe image object**
 
