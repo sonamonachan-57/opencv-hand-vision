@@ -148,7 +148,7 @@ pip install opencv-python mediapipe
 
 ## ⚙️ How It Works
 
-1️⃣ The webcam captures frames using **OpenCV **
+1️⃣ The webcam captures frames using **OpenCV**
 
 2️⃣ Each frame is flipped horizontally for natural interaction
 
