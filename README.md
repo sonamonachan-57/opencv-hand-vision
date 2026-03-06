@@ -10,20 +10,20 @@ MediaPipe’s hand tracking model is optimized for **real-time performance ⚡**
 
 ## ✨ Features
 
-* 🖐️ Real-time **hand detection and tracking**
-* 👥 Detects **up to 2 hands simultaneously**
-* 📍 Displays **21 hand landmarks per hand**
-* 🔗 Draws **hand skeleton connections**
-* 📷 Works with a **webcam feed**
-* ⚡ Lightweight and **runs in real time**
+*  Real-time **hand detection and tracking**
+*  Detects **up to 2 hands simultaneously**
+*  Displays **21 hand landmarks per hand**
+*  Draws **hand skeleton connections**
+*  Works with a **webcam feed**
+*  Lightweight and **runs in real time**
 
 ---
 
 ##  Technologies Used
 
-* 🐍 **Python**
-* 📷 **OpenCV** – for video capture and display
-* ✋ **MediaPipe** – for hand detection and landmark tracking
+*  **Python**
+*  **OpenCV** – for video capture and display
+*  **MediaPipe** – for hand detection and landmark tracking
 
 ---
 
@@ -75,10 +75,10 @@ Examples:
 
 These landmarks can be used for:
 
-* ✋ Gesture recognition
-* 👉 Finger tracking
-* 📏 Distance measurement between fingers
-* 🧠 Human–computer interaction systems
+*  Gesture recognition
+*  Finger tracking
+*  Distance measurement between fingers
+*  Human–computer interaction systems
 
 ---
 
@@ -86,12 +86,12 @@ These landmarks can be used for:
 
 This hand tracking system can be extended to build:
 
-* 🖐 **Hand gesture recognition**
-* 🖱 **Virtual mouse**
-* 🔊 **Finger-based volume control**
-* 🤟 **Sign language recognition**
-* 🕶 **Augmented reality interactions**
-* 🤖 **Robotics control using gestures**
+*  **Hand gesture recognition**
+*  **Virtual mouse**
+*  **Finger-based volume control**
+*  **Sign language recognition**
+*  **Augmented reality interactions**
+*  **Robotics control using gestures**
 
 ---
 
