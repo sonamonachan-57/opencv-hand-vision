@@ -181,6 +181,13 @@ This finger counting system can be extended to build:
 
 ## 📷 Output:
 
+  <p align="center">
+  <img src="output/finger-1.png" width="250"/>
+  <img src="output/finger-2.png" width="250"/>
+  <img src="output/finger-3.png" width="250"/>
+  <img src="output/finger-4.png" width="250"/>
+  <img src="output/finger-5.png" width="250"/>
+  </p>
 ---
 
 # 3. ✋ Hand Gesture Recognition using MediaPipe and OpenCV
