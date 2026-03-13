@@ -96,6 +96,9 @@ This hand tracking system can be extended to build:
 
 ##  📷 Output:
 
+![hand detection Output](output/hand-detection.png)
+
+
 
 
 ## 🙌 Acknowledgements
