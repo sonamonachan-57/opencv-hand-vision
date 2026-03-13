@@ -287,8 +287,8 @@ The default **MediaPipe Gesture Recognizer model** detects several predefined ge
   <img src="output/thumbs-down.png" width="250"/>
   <img src="output/closed-fist.png" width="250"/>
   <img src="output/open-palm.png" width="250"/>
-  <img src="output/victory" width="250"/>
-  <img src="output/i-love-u" width="250"/>
+  <img src="output/victory.png" width="250"/>
+  <img src="output/I-love-u.png" width="250"/>
   </p>
 
 
