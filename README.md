@@ -308,3 +308,152 @@ This system can be used to build many gesture-based applications:
 
 ---
 
+# 4. 🖐️ AI Virtual Whiteboard using Hand Tracking
+
+## 📌 Overview
+
+The **AI Virtual Whiteboard** is a computer vision application that allows users to draw on a virtual canvas using **hand gestures captured through a webcam**.  
+
+The system uses **MediaPipe Hand Tracking** to detect finger positions and enables drawing, erasing, undoing, saving, and clearing drawings in real time. It also includes **basic shape recognition** to detect shapes like rectangles and circles drawn on the canvas.
+
+This project demonstrates how **gesture-based interaction** can replace traditional input devices for creative and educational applications.
+
+---
+
+## 🎯 Objective
+
+The objective of this project is to create a **gesture-controlled drawing interface** that:
+
+- Uses hand tracking to control drawing
+- Provides a virtual whiteboard interface
+- Supports multiple drawing tools and colors
+- Recognizes basic shapes
+- Allows saving and editing drawings in real time
+
+---
+
+## ⚙️ How It Works
+
+```
+Webcam Input
+     │
+     ▼
+Hand Detection (MediaPipe)
+     │
+     ▼
+Finger Position Tracking
+     │
+     ▼
+Gesture Detection
+     │
+     ▼
+Drawing / Tool Selection
+     │
+     ▼
+Canvas Update
+     │
+     ▼
+Shape Recognition
+     │
+     ▼
+Display Virtual Whiteboard
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **OpenCV** – Computer vision and image processing
+- **MediaPipe** – Hand tracking and landmark detection
+- **NumPy** – Image canvas processing
+- **Time module** – File naming and timing
+
+---
+
+## ✨ Features
+
+- 🖐️ Real-time hand gesture tracking
+- 🎨 Virtual drawing canvas
+- 🖌 Brush tool for drawing
+- 🧽 Eraser tool
+- ↩ Undo functionality
+- 💾 Save drawings as images
+- 🗑 Clear canvas
+- 🎨 Color palette selection
+- 🔷 Shape recognition (Circle and Rectangle)
+- 📷 Webcam-based interaction
+
+---
+
+## 🎮 Controls
+
+### Gesture Modes
+
+**Selection Mode**
+- Raise **Index Finger + Middle Finger**
+- Used to select tools or colors.
+
+**Drawing Mode**
+- Raise **Index Finger only**
+- Used to draw on the canvas.
+
+---
+
+## 🧰 Tools Available
+
+| Tool | Function |
+|-----|-----|
+| Brush | Draw lines on the canvas |
+| Eraser | Remove drawn content |
+| Undo | Revert last drawing action |
+| Save | Save drawing as an image |
+| Clear | Clear entire canvas |
+
+---
+
+## 🎨 Color Palette
+
+Users can choose from multiple colors:
+
+- Blue  
+- Green  
+- Red  
+- Yellow  
+- Purple  
+- Black (used as eraser)
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Install Required Libraries
+
+```bash
+pip install opencv-python mediapipe numpy
+```
+
+---
+
+## 🧠 Shape Recognition
+
+The system detects shapes drawn on the canvas using **contour approximation**:
+
+- Shapes with **4 vertices → Rectangle**
+- Shapes with **more than 6 vertices → Circle**
+
+Detected shapes are labeled automatically on the canvas.
+
+
+---
+
+## 🌍 Applications
+
+- Digital classrooms and online teaching
+- Gesture-based creative tools
+- Touchless drawing systems
+- Interactive presentations
+- Computer vision research
+
+---
+
